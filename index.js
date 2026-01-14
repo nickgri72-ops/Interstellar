@@ -1,18 +1,3 @@
-(() => {
-  const PASSWORD = "4321"; // change this
-
-  document.documentElement.style.display = "none";
-
-  const input = prompt("Enter password");
-
-  if (input === PASSWORD) {
-    document.documentElement.style.display = "block";
-  } else {
-    alert("Wrong password");
-    document.documentElement.innerHTML = "";
-  }
-})();
-
 import fs from "node:fs";
 import http from "node:http";
 import path from "node:path";
